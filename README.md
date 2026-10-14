@@ -80,8 +80,6 @@ Each Kafka message uses the user ID as the **key** (e.g. `U1`, `U30`, `U47`) and
 
 **Event types:** `page_view`, `add_to_cart`, `order_placed`, `payment`
 
-> The screenshot truncates the JSON value. Update this section with the full field list from your producer.
-
 ---
 
 ## Pipeline Layers
@@ -166,7 +164,7 @@ password = dbutils.secrets.get(scope="kafka", key="api_secret")
 Run your producer script to publish events to `topic_kafka_learning`.
 
 ```bash
-python producer.py   # replace with your actual producer script
+python producer.py
 ```
 
 ### 4. Create the Databricks pipeline
