@@ -213,8 +213,6 @@ Monitor runs in **Pipeline graph**, **Tables**, and **Performance** tabs, or ope
 
 Total run duration: ~34 seconds, status **Completed**.
 
-> \*Check this label against your run. If new rows were added, the "No change" tag likely reflects the incremental refresh strategy for that run rather than the absence of new data.
-
 ---
 
 ## Data Quality
